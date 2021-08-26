@@ -9,11 +9,11 @@ for (let i = 0; i < tabPanes.length; i++) {
     document.getElementsByClassName("tab-content")[0].getElementsByClassName("tab-body")[i].classList.add("active");
   });
 }
-let userData = [];
+let userData = [{userlast:"sha",userlast:"sha",useremail:"shaista@gmail.com",userPassword:"pavan"},];
 
 //let value=userData;
-localStorage.setItem("value", JSON.stringify([]));
-if (localStorage.getItem("userData") === null) {
+//localStorage.setItem("value", JSON.stringify([]));
+if (JSON.parse(localStorage.getItem("userData") )=== null) {
   localStorage.setItem("userData", JSON.stringify([]));
 }
 
@@ -37,10 +37,10 @@ function data(e) {
 
     const input_json = JSON.stringify(userData);
     localStorage.setItem("userData", input_json);
-    //  setTimeout(
-    //  function () {
-    //    window.location.href = "facebook.html"
-    // }, 3000);
+      setTimeout(
+      function () {
+       window.location.href = "signup.html"
+     }, 3000);
 
 
   }
@@ -65,26 +65,35 @@ function getData(inputs, userData) {
   var validfirst = inputs.userName
   var validlast = inputs.userphone
   if (validEmail == "") {
-    var mess=document.getElementById("mess2");
-    //alert("Please enter your email")
-    mess.innerText ="Please enter ypur email";
-    
-
-
-    //return false;
+    var mess2=document.getElementById("mess2");
+    mess2.innerText ="Please enter your email";
+    mess2.style.color="red";
+    return false;
   } else if (validPassword == "") {
 
-    alert("Please enter a valid password!")
+    var mess3=document.getElementById("mess3");
+    mess3.innerText ="Please enter your password";
+    mess3.style.color="red";
+    
+   // alert("Please enter a valid password!")
     return false;
 
   } else if (validfirst == "") {
+    var mess=document.getElementById("mess");
+    mess.innerText ="Please enter your First name";
+    mess.style.color="red";
+    
 
-    alert("Please enter a valid firstName!")
+   //alert("Please enter a valid firstName!")
     return false;
 
   } else if (validlast == "") {
+    var mess1=document.getElementById("mess1");
+    mess1.innerText ="Please enter your last name";
+    mess1.style.color="red";
+    
 
-    alert("Please enter a valid last name!")
+    //alert("Please enter a valid last name!")
     return false;
 
   } else if (emailkey.indexOf(inputs.userfirst) != -1) {
@@ -92,8 +101,14 @@ function getData(inputs, userData) {
     document.getElementById("signedup").style.color = "red"
     return false;
   } else {
-    var mess=document.getElementById("mess2");
+    var mess2=document.getElementById("mess2");
+    mess2.innerText="";
+    var mess3=document.getElementById("mess3");
+    mess3.innerText="";
+    var mess=document.getElementById("mess");
     mess.innerText="";
+    var mess1=document.getElementById("mess1");
+    mess1.innerText="";
     return true;
   }
 }
@@ -134,10 +149,10 @@ function fom(e1) {
 
   } else if (emailkey.indexOf(login.useremail) != -1) {
     if (passkey.indexOf(login.userPassword) != -1) {
-      document.getElementById("signedin").innerText = "Congratulations! Account created"
+      document.getElementById("signedin").innerText = "Successfully signed in"
       document.getElementById("signedin").style.color = "green"
       setTimeout(function () {
-        window.location.href = "mail.html"
+        window.location.href = "classroom.html"
       }, 3000);
     } else {
       document.getElementById("signedin").innerText = "Invalid creditials"

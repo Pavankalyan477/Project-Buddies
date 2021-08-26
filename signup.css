@@ -11,7 +11,7 @@
 
   .form {
     position: absolute;
-    top: 100%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 700px;
@@ -94,13 +94,16 @@
     box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0, 26);
     background-color: white;
   }
-
+  button{
+    padding: 2px;
+  }
+  
   nav>img {
     max-width: 250px;
     max-height: 100px;
   }
 
-  a>img {
+  button>img {
     max-width: 22px;
     max-height: 22px;
     float: left;
