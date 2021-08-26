@@ -37,10 +37,10 @@ function data(e) {
 
     const input_json = JSON.stringify(userData);
     localStorage.setItem("userData", input_json);
-    //  setTimeout(
-    //  function () {
-    //    window.location.href = "facebook.html"
-    // }, 3000);
+      setTimeout(
+      function () {
+       window.location.href = "signup.html"
+     }, 3000);
 
 
   }
@@ -152,7 +152,7 @@ function fom(e1) {
       document.getElementById("signedin").innerText = "Successfully signed in"
       document.getElementById("signedin").style.color = "green"
       setTimeout(function () {
-        window.location.href = "mail.html"
+        window.location.href = "classroom.html"
       }, 3000);
     } else {
       document.getElementById("signedin").innerText = "Invalid creditials"
