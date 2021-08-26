@@ -103,7 +103,7 @@
     max-height: 100px;
   }
 
-  a>img {
+  button>img {
     max-width: 22px;
     max-height: 22px;
     float: left;

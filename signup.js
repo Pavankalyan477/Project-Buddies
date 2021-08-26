@@ -67,13 +67,13 @@ function getData(inputs, userData) {
   if (validEmail == "") {
     var mess2=document.getElementById("mess2");
     mess2.innerText ="Please enter your email";
-    mess2.innerText.style.color="red";
+    mess2.style.color="red";
     return false;
   } else if (validPassword == "") {
 
     var mess3=document.getElementById("mess3");
     mess3.innerText ="Please enter your password";
-    mess3.innerText.style.color="red";
+    mess3.style.color="red";
     
    // alert("Please enter a valid password!")
     return false;
@@ -81,7 +81,7 @@ function getData(inputs, userData) {
   } else if (validfirst == "") {
     var mess=document.getElementById("mess");
     mess.innerText ="Please enter your First name";
-    mess.innerText.style.color="red";
+    mess.style.color="red";
     
 
    //alert("Please enter a valid firstName!")
@@ -90,7 +90,7 @@ function getData(inputs, userData) {
   } else if (validlast == "") {
     var mess1=document.getElementById("mess1");
     mess1.innerText ="Please enter your last name";
-    mess1.innerText.style.color="red";
+    mess1.style.color="red";
     
 
     //alert("Please enter a valid last name!")
@@ -149,7 +149,7 @@ function fom(e1) {
 
   } else if (emailkey.indexOf(login.useremail) != -1) {
     if (passkey.indexOf(login.userPassword) != -1) {
-      document.getElementById("signedin").innerText = "Congratulations! Account created"
+      document.getElementById("signedin").innerText = "Successfully signed in"
       document.getElementById("signedin").style.color = "green"
       setTimeout(function () {
         window.location.href = "mail.html"
