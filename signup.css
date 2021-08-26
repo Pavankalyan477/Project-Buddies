@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #ddd;
+    font-family: sans-serif;
+    text-align: center;
+    -webkit-font-smoothing: antialiased
+  }
+
+  .form {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    background: #f5f5f5;
+    box-shadow: 5px 5px 10px 5px #ccc;
+  }
+
+  .form .tab-header {
+    height: 50px;
+    line-height: 50px;
+  }
+
+  .form .tab-header>div {
+    width: 50%;
+    float: left;
+    text-align: center;
+    background: #ddd;
+    color: #555;
+    cursor: pointer;
+  }
+
+  .form .tab-header>div.active {
+    background: #f5f5f5;
+    color: #111;
+  }
+
+  .form .tab-content {
+    padding: 20px;
+  }
+
+  .form .tab-content .form-element {
+    margin: 10px 0px;
+  }
+
+  .form .tab-content .form-element input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    font-size: 16px;
+    background: #f5f5f5;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .form .tab-content .form-element input[type="checkbox"] {
+    width: 30px;
+    margin: 8px 0px;
+    margin-left: -5px;
+  }
+
+  .form .tab-content .form-element label {
+    color: #111;
+  }
+
+  .form .tab-content .form-element button {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: #00acee;
+    color: #f5f5f5;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .form .tab-content>div.active {
+    display: block;
+  }
+
+  .form .tab-content>div {
+    display: none;
+  }
+
+  nav {
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0, 26);
+    background-color: white;
+  }
+
+  nav>img {
+    max-width: 250px;
+    max-height: 100px;
+  }
+
+  a>img {
+    max-width: 22px;
+    max-height: 22px;
+    float: left;
+  }
+
+  img+p:hover {
+    float: right;
+  }
+
+  h3 {
+    font-size: 50px;
+    font-weight: inherit;
+  }
+
+  .btn1 {
+    max-width: 100px;
+    background-color: rgb(3, 3, 88);
+    font-weight: bolder;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .title{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+  }
