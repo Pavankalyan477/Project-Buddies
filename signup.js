@@ -9,11 +9,11 @@ for (let i = 0; i < tabPanes.length; i++) {
     document.getElementsByClassName("tab-content")[0].getElementsByClassName("tab-body")[i].classList.add("active");
   });
 }
-let userData = [];
+let userData = [{userlast:"sha",userlast:"sha",useremail:"shaista@gmail.com",userPassword:"pavan"},];
 
 //let value=userData;
-localStorage.setItem("value", JSON.stringify([]));
-if (localStorage.getItem("userData") === null) {
+//localStorage.setItem("value", JSON.stringify([]));
+if (JSON.parse(localStorage.getItem("userData") )=== null) {
   localStorage.setItem("userData", JSON.stringify([]));
 }
 

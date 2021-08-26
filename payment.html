@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +10,7 @@
 <style>
     #header {
         height: 72px;
-        box-shadow:0 2px 8px 0 rgb(0 0 0 / 20%);
+        box-shadow: 0 2px 8px 0 rgb(0 0 0 / 20%);
         margin: 0 0 32px;
         margin-top: 0px;
         align-items: center;
@@ -19,16 +20,19 @@
         flex-direction: row;
         font-family: sans-serif;
     }
+
     .img1 {
         width: 15%;
     }
-    #const{
+
+    #const {
         max-width: 750px;
         text-align: center;
         align-items: center;
         justify-content: center;
         font-family: sans-serif;
     }
+
     .layconst {
         width: 650px;
         text-align: center;
@@ -38,27 +42,32 @@
         height: fit-content;
         margin-bottom: 40px;
     }
-    .layconst > p{
+
+    .layconst>p {
         font-size: 17px;
-        color: teal; 
+        color: teal;
     }
+
     .bold {
         font-weight: 700;
         color: rgb(1, 95, 95);
     }
+
     .text1 {
         margin: auto;
-        width:fit-content;
+        width: fit-content;
         margin-bottom: 1.5rem;
-        font-family:sans-serif;
+        font-family: sans-serif;
         font-size: 12px;
     }
+
     .text2 {
         margin: auto;
-        width:fit-content;
-        font-family:sans-serif;
+        width: fit-content;
+        font-family: sans-serif;
         font-size: 12px;
     }
+
     #tabbar {
         width: 750px;
         margin: auto;
@@ -68,8 +77,9 @@
         align-items: center;
         justify-content: center;
     }
+
     #tabbar .btn2 {
-        width:30%;
+        width: 30%;
         margin-top: 10px;
         height: 50px;
         font-size: 20px;
@@ -78,37 +88,41 @@
         font-weight: 550;
         border: none;
         background-color: white;
-        background: 
-                linear-gradient(100deg,rgb(52, 143, 247),rgb(52, 143, 247)) left bottom/0 4px no-repeat,
-                linear-gradient(100deg,rgb(52, 143, 247),rgb(52, 143, 247)) left bottom/90% 4px no-repeat,
-                linear-gradient(100deg,#ffffff,#ffffff) left bottom/90% no-repeat;
-    } 
-    #tabbar button {
-        width:30%;
-        margin-top: 10px;
-        height: 50px;
-        font-size: 20px;
-        font-family: sans-serif;
-        margin-bottom: 15px;
-        font-weight: 550;
-        border: none;
-        background-color: white;
-        background: 
-                linear-gradient(90deg,#222,#222) left bottom/0 3px no-repeat,
-                linear-gradient(90deg,#ccc,#ccc) left bottom/90% 3px no-repeat,
-                linear-gradient(90deg,#fafafa,#fafafa) left bottom/90% no-repeat;
+        background:
+            linear-gradient(100deg, rgb(52, 143, 247), rgb(52, 143, 247)) left bottom/0 4px no-repeat,
+            linear-gradient(100deg, rgb(52, 143, 247), rgb(52, 143, 247)) left bottom/90% 4px no-repeat,
+            linear-gradient(100deg, #ffffff, #ffffff) left bottom/90% no-repeat;
     }
+
+    #tabbar button {
+        width: 30%;
+        margin-top: 10px;
+        height: 50px;
+        font-size: 20px;
+        font-family: sans-serif;
+        margin-bottom: 15px;
+        font-weight: 550;
+        border: none;
+        background-color: white;
+        background:
+            linear-gradient(90deg, #222, #222) left bottom/0 3px no-repeat,
+            linear-gradient(90deg, #ccc, #ccc) left bottom/90% 3px no-repeat,
+            linear-gradient(90deg, #fafafa, #fafafa) left bottom/90% no-repeat;
+    }
+
     #tabbar button img {
-         height: 27px;
-        background-color:none;
+        height: 27px;
+        background-color: none;
         margin: auto;
     }
+
     #form {
-        margin:auto;
+        margin: auto;
         align-items: center;
         width: 600px;
         justify-content: center;
     }
+
     .text3 {
         font-size: 17px;
         margin-top: 20px;
@@ -117,51 +131,57 @@
         margin-bottom: 25px;
         font-family: sans-serif;
     }
+
     label {
         font-family: sans-serif;
         font-size: 18px;
         font-weight: 525;
     }
+
     input {
-        width:98.5%;
+        width: 98.5%;
         height: 45px;
         border-radius: 3px;
         margin-top: 15px;
         margin-bottom: 15px;
-        border:1px solid gray;
+        border: 1px solid gray;
         box-sizing: border-box;
     }
+
     #country {
-        width:98.5%;
+        width: 98.5%;
         height: 45px;
         border-radius: 3px;
         margin-top: 15px;
         margin-bottom: 15px;
-        border:1px solid gray;
+        border: 1px solid gray;
         box-sizing: border-box;
         background-color: #fff;
         padding: 5px;
         font-size: 15px;
         color: gray;
     }
+
     #mon {
         width: 55px;
         height: 40px;
         border-radius: 3px;
         margin-top: 15px;
         margin-bottom: 15px;
-        border:1px solid gray;
+        border: 1px solid gray;
         box-sizing: border-box;
     }
+
     #year {
         width: 55px;
         height: 40px;
         border-radius: 3px;
         margin-top: 15px;
         margin-bottom: 15px;
-        border:1px solid gray;
+        border: 1px solid gray;
         box-sizing: border-box;
     }
+
     #cvv {
         width: 50px;
         height: 40px;
@@ -169,43 +189,45 @@
         margin-top: 15px;
         margin-left: 20px;
         margin-bottom: 15px;
-        border:1px solid gray;
+        border: 1px solid gray;
         box-sizing: border-box;
     }
+
     .btn button {
-    text-align: center;
-    background-color: #017a9b;
-    color: white;
-    border:none;
-    font-size: 0.90rem;
-    font-weight: 525;
-    /* letter-spacing: 1.5px; */
-    text-align: center;
-    height: 3.2rem; 
-    padding: 5px 30px;
-    border: transparent;
-    border-radius:5px;
-    font-family:sans-serif;
+        text-align: center;
+        background-color: #017a9b;
+        color: white;
+        border: none;
+        font-size: 0.90rem;
+        font-weight: 525;
+        /* letter-spacing: 1.5px; */
+        text-align: center;
+        height: 3.2rem;
+        padding: 5px 30px;
+        border: transparent;
+        border-radius: 5px;
+        font-family: sans-serif;
     }
+
     .btn {
         margin: auto;
         width: 190px;
         margin-top: 10px;
         /* border:1px solid black; */
     }
-
-    
 </style>
+
 <body>
     <div>
         <header>
             <div id="header">
-                <img src="https://payment.udacity.com/static/media/logo.ccbc74e4.svg" alt="udacity" class="img1"/>
+                <img src="https://payment.udacity.com/static/media/logo.ccbc74e4.svg" alt="udacity" class="img1" />
             </div>
         </header>
         <div id="cont">
             <div class="layconst">
-                <p><span>Get Started > </span><span>Orders Details ></span><span class="bold">Payment Method > </span><span>Review Your Order</span></p>
+                <p><span>Get Started > </span><span>Orders Details ></span><span class="bold">Payment Method >
+                    </span><span>Review Your Order</span></p>
             </div>
             <div class="text1">
                 <h1>Payment Method</h1>
@@ -214,19 +236,21 @@
                 <h2>Full Stack Web Developer Nanodegree Program</h2>
             </div>
             <div id="tabbar">
-                 <button class="btn2">Card</button>
-                 <button><img src="https://payment.udacity.com/static/media/paypal.20fe6c08.png" alt="paypal"></button>
-                 <button>0% Financing</button>
+                <button class="btn2">Card</button>
+                <button><img src="https://payment.udacity.com/static/media/paypal.20fe6c08.png" alt="paypal"></button>
+                <button>0% Financing</button>
             </div>
             <div id="form">
                 <div class="text3">Billing Information</div>
                 <div>
                     <label id="name">Name</label>
-                    <input type="text" id="name">
+                    <input type="text" id="nam1" placeholder="name"/>
+                    <p id="nan"></p>
                 </div>
                 <div id="set-icon">
                     <label id="name">Card Data</label>
-                    <input type="text" id="name" placeholder="Card Number">
+                    <input type="number" id="nam" placeholder="Card Number"/>
+                    <p id="err"></p>
                     <input type="number" placeholder="month" id="mon">
                     <input type="number" placeholder="year" id="year">
                     <input type="number" placeholder="CVV" id="cvv">
@@ -481,23 +505,66 @@
                         <option value="Zaire">Zaire</option>
                         <option value="Zambia">Zambia</option>
                         <option value="Zimbabwe">Zimbabwe</option>
-                     </select>
+                    </select>
                 </div>
                 <div>
                     <label id="numb">Postal/Zip Code <span>(optional)</span></label>
                     <input type="number" id="zipcode">
                 </div>
                 <div class="btn">
-                    <button id="funbtn">Review Your Order</button>
+                    <button id="funbtn" onclick="fun(event)">Review Your Order</button>
                 </div>
             </div>
-            </div>
+        </div>
     </div>
 </body>
+
 </html>
 <script>
-    document.querySelector("#funbtn")
-        .addEventListener('click',()=>{
-       alert("Payment Successful")
+    
+ function fun(e1) {
+  e1.preventDefault();
+        var d=document.getElementById("nam").value;
+        var n=document.getElementById("nam1").value;
+        console.log(n);
+       
+        if(n==""){
+            var n1=document.getElementById("nan");
+            console.log(n1);
+            n1.innerText="Enter valid name";
+            n1.style.color="red";
+            return false;
+          
+        }
+        else if(d.length<16 || d.length>16){
+            var n1=document.getElementById("nan");
+            n1.innerText="";
+            var msg=document.getElementById("err");
+            msg.innerText="Enter valid card details";
+            msg.style.color="red"
+            return false;
+        }else{
+           
+            var msg=document.getElementById("err");
+            msg.innerText="";
+            
+
+
+
+            document.querySelector("#funbtn")
+            .addEventListener('click', () => {
+            alert("Payment Successful")
         })
+        return true;
+        }
+
+
+
+ }
+
+
+ /*document.querySelector("#funbtn")
+        .addEventListener('click', () => {
+            alert("Payment Successful")
+        })*/
 </script>
