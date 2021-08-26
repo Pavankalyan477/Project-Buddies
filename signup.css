@@ -94,7 +94,10 @@
     box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0, 26);
     background-color: white;
   }
-
+  button{
+    padding: 2px;
+  }
+  
   nav>img {
     max-width: 250px;
     max-height: 100px;
