@@ -554,6 +554,7 @@ height:90%;
     background-repeat: no-repeat;
     background-size: cover;
     height:900px;
+    margin-top: 10px;
     /* background-attachment: fixed; */
 }
 .box-cont {
@@ -562,14 +563,14 @@ height:90%;
     margin-top: 0px;
     height: 100%;
     display: grid;
-    grid-template-columns: 45% 43%;
+    grid-template-columns: 45% 45%;
     grid-gap: 2%;
     justify-content:space-around;
 }
 .boxcont1{
     margin: auto;
     width: 100%;
-    height: 750px;
+    height: 800px;
     margin-top: 30px;
     margin-bottom: 30px;
     background-color: #fff;
@@ -608,7 +609,7 @@ height:90%;
 .boxcont3{
     margin: auto;
     width: 100%;
-    height: 24%;
+    height: 22%;
     margin-bottom: 10px;
     background-color: #fff;
     border-radius: 5px;
@@ -626,6 +627,7 @@ height:90%;
 .new-per {
     color: black;
     font-size: 14px;
+    margin-top: 8px;
 }
 .new-per img {
     float: right;
@@ -634,6 +636,7 @@ height:90%;
 .save {
     color: #525c65;
     font-size: 14px;
+   margin-top: 20px;
 }
 .btn10  {
     color: #fff;
@@ -644,6 +647,7 @@ height:90%;
     height: 50px;
     font-weight: 600;
     border-radius: 5px;
+    margin-top: 20px;
     justify-content: center;
     letter-spacing: .125rem;
 
@@ -653,7 +657,7 @@ height:90%;
     margin-bottom: 20px;
     margin-top: 20px;
     width: 100%;
-    height: 50%;
+    height: 41%;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 5px 5px 25px 0 rgb(46 61 73 / 20%);
@@ -748,7 +752,6 @@ height:90%;
 }
 .bottom-tag img {
     width:80px;
-    margin-left: 5px;
     align-items: center;
 }
 .text26 {
@@ -774,7 +777,7 @@ height:90%;
     .boxcont5{
     margin: auto;
     width: 100%;
-    height: 27%;
+    height: 20%;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 5px 5px 25px 0 rgb(46 61 73 / 20%);
@@ -787,7 +790,7 @@ height:90%;
 .get-stat {
     background-color: teal;
     color: white !important;
-    margin-top: 3px;
+    margin-top: 4px;
     border-radius: 2px;
     text-align: center;
     width: inherit;
