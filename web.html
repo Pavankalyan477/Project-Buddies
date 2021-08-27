@@ -52,7 +52,7 @@
                     <div class="ca1">Full stack Web developer</div>
                     <div class="ca2">Learn to design and develop powerful modern web applications that form the 
                         foundation for the apps, websites, and systems that people and businesses use every day. </div>
-                    <div class="ca3"><button onclick="buy('web')">ENROLL NOW</button></div>
+                    <div class="ca3"><button onclick="buy('web')"><a class="am" href="#backimg">ENROLL NOW</a></button></div>
                     </div>
                     <div class="cb">
                         <div class="cb1">
@@ -60,7 +60,7 @@
                             <div class="cb11">6 Months</div>
                         </div>
                         <div class="cb1">
-                            <div class="cb10"><a href="orderdetails.html">ENROLL BY</a></div>
+                            <div class="cb10">ENROLL BY</div>
                             <div class="cb11">Sept 21 2021</div>
                         </div>
                         <div class="cb1">
@@ -128,7 +128,7 @@
                             <div class="monfor">4 MONTHS ACCESS</div>
                             <div class="pricetag">
                                 <p class="bigger"><span>$1356</span><span class="smaller">$339 per month</span></p>
-                                <button class="btn12">ENROLL NOW</button>
+                                <button class="btn12"><a class="am" href="orderdetails.html">ENROLL NOW</a></button>
                                 <div class="text25"><p>Start learning today! Switch to the monthly</p><p>price afterwards if more time is needed.</p></div>
                             </div>
                         </div>
@@ -144,7 +144,7 @@
                             <div class="monfor2">PAY AS YOU GO</div>
                             <div class="pricetag2">
                                 <p class="bigger2"><span>$1356</span><span class="smaller2">$339 per month</span></p>
-                                <button class="btn13">ENROLL NOW</button>
+                                <button class="btn13"><a class="am" href="orderdetails.html">ENROLL NOW</a></button>
                                                            </div>
                         </div>
                     </div>
@@ -268,7 +268,7 @@
         localStorage.setItem('buy',JSON.stringify([]));
     }
     function buy(a){
-        window.location.href="orderdetails.html";
+      //  window.location.href="orderdetails.html";
         var b=JSON.parse(localStorage.getItem('buy'));
         if(!b.includes(a)){
             b.push(a);
