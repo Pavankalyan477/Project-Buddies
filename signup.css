@@ -11,6 +11,7 @@
 
   .form {
     position: absolute;
+
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -88,31 +89,50 @@
   .form .tab-content>div {
     display: none;
   }
+  #header2 {
+    height: 72px;
+    box-shadow:0 2px 8px 0 rgb(0 0 0 / 20%);
+    margin: 0 0 32px;
+    margin-top: 0px;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+}
+.img1 {
+  width: 15%;
+}
 
   nav {
     margin: auto;
+    margin-bottom: 2%;
     text-align: center;
     box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0, 26);
     background-color: white;
   }
   button{
     padding: 2px;
+    width: 30%;
+    border-radius: 5px;
+   
   }
   
-  nav>img {
-    max-width: 250px;
-    max-height: 100px;
-  }
 
   button>img {
-    max-width: 22px;
-    max-height: 22px;
+    max-width: 40px;
+    
     float: left;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn2 p{
+    justify-content: center;
+    align-items: center;
   }
 
-  img+p:hover {
-    float: right;
-  }
 
   h3 {
     font-size: 50px;

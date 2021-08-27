@@ -153,7 +153,7 @@ function fom(e1) {
       document.getElementById("signedin").style.color = "green"
       setTimeout(function () {
         window.location.href = "classroom.html"
-      }, 3000);
+      }, 300);
     } else {
       document.getElementById("signedin").innerText = "Invalid creditials"
       document.getElementById("signedin").style.color = "red"

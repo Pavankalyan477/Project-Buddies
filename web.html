@@ -193,6 +193,7 @@
         localStorage.setItem('buy',JSON.stringify([]));
     }
     function buy(a){
+        window.location.href="orderdetails.html";
         var b=JSON.parse(localStorage.getItem('buy'));
         if(!b.includes(a)){
             b.push(a);
