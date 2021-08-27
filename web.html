@@ -52,7 +52,7 @@
                     <div class="ca1">Full stack Web developer</div>
                     <div class="ca2">Learn to design and develop powerful modern web applications that form the 
                         foundation for the apps, websites, and systems that people and businesses use every day. </div>
-                    <div class="ca3"><button>ENROLL NOW</button></div>
+                    <div class="ca3"><button onclick="buy('web')">ENROLL NOW</button></div>
                     </div>
                     <div class="cb">
                         <div class="cb1">
@@ -263,3 +263,18 @@
         </div>
             </div>
     </div>
+    <script>
+    if(JSON.parse(localStorage.getItem('buy')===null)){
+        localStorage.setItem('buy',JSON.stringify([]));
+    }
+    function buy(a){
+        window.location.href="orderdetails.html";
+        var b=JSON.parse(localStorage.getItem('buy'));
+        if(!b.includes(a)){
+            b.push(a);
+        }
+        console.log(b);
+    localStorage.setItem('buy',JSON.stringify(b));
+    
+    }
+    </script>

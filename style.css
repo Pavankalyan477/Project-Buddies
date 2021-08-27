@@ -1,7 +1,12 @@
 .a{
     height:75%;
     width:95%;
+<<<<<<< HEAD
+    
+    border-radius:10px;
+=======
     font-family:sans-serif;
+>>>>>>> e22121b7e9a28628c62bb08e410e009ae98d63a6
     margin-top:3%;
     float:right;
 }
@@ -113,8 +118,12 @@
 .n{
     height:100%;
     width:22%;
+<<<<<<< HEAD
+    
+=======
     justify-content: center;
     align-items: center;
+>>>>>>> e22121b7e9a28628c62bb08e410e009ae98d63a6
     border-radius:10px;
     float:left;
     margin-right:2%;
