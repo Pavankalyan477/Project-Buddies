@@ -250,50 +250,6 @@ ul li ul li{
     background-image:url("https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/7vztwsHm7aveL29tXFlTXh/9ec4f9470e12edf85f910c1d1f2d0c9f/DSGN-1158_Hero-BG_1180x624.jpg")
     
 }
-.caa{
-    height:90%;
-    width:85%;
-    margin-top:3%;
-    margin-left:5%;
-    border:1px solid white;
-    border-radius:10px;
-    box-shadow:-2px -2px 2px 2px lightgray,2px 2px 2px 2px lightgray;
-    
-    border-radius:10px;
-    background-image:url("https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/dmk0g1yK9RZZIKY944rYa/ff463701dc570677ae9a73fccfcbee6f/ND025_-_hero_bg_image.jpg")
-
-}
-
-.caaa{
-    height:90%;
-    width:85%;
-    margin-top:3%;
-    margin-left:5%;
-    border:1px solid white;
-    border-radius:10px;
-    box-shadow:-2px -2px 2px 2px lightgray,2px 2px 2px 2px lightgray;
-    background-image:url("https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/48s5ydBPYT9MhNcz5v4MnT/7a719c2731e9e7e522657f403067fb7b/ndHero-course-darkened_.jpg");
-    border-radius:10px;}
-
-.chealth{
-background-image:url("https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/3ifaxTZITXDmUJ8CSYUgry/123099a8296bff28984645a6661490a4/hero-bg-1180x624__5_.jpg");
-height:90%;
-    width:85%;
-    margin-top:3%;
-    margin-left:5%;
-    border:1px solid white;
-    border-radius:10px;
-    box-shadow:-2px -2px 2px 2px lightgray,2px 2px 2px 2px lightgray;
-    border-radius:10px;
-}
-
-
-
-
-
-
-
-
 .ca1{
     height:10%;
     width:50%;
@@ -306,7 +262,6 @@ height:90%;
     text-align:center;
     color:white;
 }
-
 .ca2{
     height:10%;
     width:70%;
@@ -446,6 +401,47 @@ height:90%;
     font-family:Arial, Helvetica, sans-serif;
     line-height:25px;
 }
+
+.caa{
+    height:90%;
+    width:85%;
+    margin-top:3%;
+    margin-left:5%;
+    border:1px solid white;
+    border-radius:10px;
+    box-shadow:-2px -2px 2px 2px lightgray,2px 2px 2px 2px lightgray;
+    
+    border-radius:10px;
+    background-image:url("https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/dmk0g1yK9RZZIKY944rYa/ff463701dc570677ae9a73fccfcbee6f/ND025_-_hero_bg_image.jpg")
+
+}
+
+.caaa{
+    height:90%;
+    width:85%;
+    margin-top:3%;
+    margin-left:5%;
+    border:1px solid white;
+    border-radius:10px;
+    box-shadow:-2px -2px 2px 2px lightgray,2px 2px 2px 2px lightgray;
+    background-image:url("https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/48s5ydBPYT9MhNcz5v4MnT/7a719c2731e9e7e522657f403067fb7b/ndHero-course-darkened_.jpg");
+    border-radius:10px;}
+
+.chealth{
+background-image:url("https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/3ifaxTZITXDmUJ8CSYUgry/123099a8296bff28984645a6661490a4/hero-bg-1180x624__5_.jpg");
+height:90%;
+    width:85%;
+    margin-top:3%;
+    margin-left:5%;
+    border:1px solid white;
+    border-radius:10px;
+    box-shadow:-2px -2px 2px 2px lightgray,2px 2px 2px 2px lightgray;
+    border-radius:10px;
+}
+
+
+
+
 
 
 
