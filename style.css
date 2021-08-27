@@ -1,7 +1,7 @@
 .a{
     height:75%;
     width:95%;
-    
+    font-family:sans-serif;
     margin-top:3%;
     float:right;
 }
@@ -116,7 +116,8 @@
 .n{
     height:100%;
     width:22%;
-    
+    justify-content: center;
+    align-items: center;
     border-radius:10px;
     float:left;
     margin-right:2%;

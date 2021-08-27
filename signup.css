@@ -22,6 +22,7 @@
   .form .tab-header {
     height: 50px;
     line-height: 50px;
+    border: 1px solid #555;
   }
 
   .form .tab-header>div {
