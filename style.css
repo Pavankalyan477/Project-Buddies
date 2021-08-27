@@ -1,14 +1,17 @@
 .a{
     height:75%;
     width:95%;
-<<<<<<< HEAD
     
     border-radius:10px;
-=======
     font-family:sans-serif;
->>>>>>> e22121b7e9a28628c62bb08e410e009ae98d63a6
     margin-top:3%;
     float:right;
+
+}
+.am{
+    text-decoration: none;
+    color:#fff;
+    background-color: #017a9b;
 }
 .b{
     height:100%;
@@ -38,6 +41,7 @@
 }
 .f{ 
     margin-top:3%;
+   
     height:40%;
     width:60%;
     
@@ -45,10 +49,10 @@
 }
 .g{
     height:100%;
-    width:32%;
+    width:30%;
     box-shadow:-2px -2px 2px 2px lightgray,2px 2px 2px 2px lightgray;
     border-radius:10px;
-    margin-right:1%;
+    margin-right:2%;
     float:left;
     background-color:rgb(242, 243, 235)
 }
@@ -59,11 +63,14 @@
     float:left;
     width:70%;
     border-radius:10px;
-    background-color:teal;
     text-align:center;
-    color:white;
     font-size:12px;
     font-family:sans-serif;
+    color: #fff;
+    background-color: #017a9b;
+    
+    border: none;
+
 }
 .i{
     height:10%;
@@ -118,12 +125,9 @@
 .n{
     height:100%;
     width:22%;
-<<<<<<< HEAD
     
-=======
     justify-content: center;
     align-items: center;
->>>>>>> e22121b7e9a28628c62bb08e410e009ae98d63a6
     border-radius:10px;
     float:left;
     margin-right:2%;
@@ -179,12 +183,13 @@
 .p20{
     height:90%;
     width:80%;
-    background-color:teal;
     margin:auto;
     float:left;
     border-radius:5px;
-    color:white;
+    color: #fff;
+    background-color: #017a9b;
     font-family:sans-serif;
+    text-decoration: none;
 }
 .p3{
     height:100%;
@@ -789,4 +794,60 @@ height:90%;
     font-size: 14px;
     color: #494f53;
     font-family: Open Sans,sans-serif;
+}
+
+
+/*pramotion adding*/
+
+#cls1 {
+    font-size: 25px;
+    text-align: center;
+    line-height: 100%;
+}
+
+.cls2 {
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 40%;
+    font-size: 17px;
+}
+
+#id2 {
+    margin: auto;
+    text-align: center;
+}
+
+#img1 {
+    max-width: 15%;
+    margin: 2%;
+}
+
+#popup {
+    border-radius: 1px solid red;
+    /* text-align: center; */
+    width: 75%;
+    height: 250px;
+    margin: auto;
+    padding: 50px;
+
+    margin-top: 7%;
+    font-family: sans-serif;
+    color: white;
+    padding: 6rem 0;
+    margin-bottom: 2.5rem;
+    background-color: #2e3d49;
+
+}
+
+#btn1 {
+    margin-left: 40%;
+    ;
+    text-align: center;
+    height: 50px;
+
+    border-radius: 3px;
+    width: 13.75rem;
+    color: #fff;
+    background-color: #017a9b;
+    border: .125rem solid transparent;
 }
