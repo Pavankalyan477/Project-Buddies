@@ -234,7 +234,7 @@
                 <h1>Payment Method</h1>
             </div>
             <div class="text2">
-                <h2>Full Stack Web Developer Nanodegree Program</h2>
+                <h2 id="a">Full Stack Web Developer Nanodegree Program</h2>
             </div>
             <div id="tabbar">
                 <button class="btn2">Card</button>
@@ -522,8 +522,19 @@
 
 </html>
 <script>
+    if(JSON.parse(localStorage.getItem('buy1'))===null){
+        localStorage.setItem('buy1',JSON.stringify([]));
+    }
     
  function fun(e1) {
+     var x=document.getElementById('a').innerHTML;
+     var y=JSON.parse(localStorage.getItem('buy1'));
+     if(!(y.includes(x))){
+         y.push(x);
+         console.log(x);
+         localStorage.setItem('buy1',JSON.stringify(y));
+     }
+
   e1.preventDefault();
         var d=document.getElementById("nam").value;
         var n=document.getElementById("nam1").value;
