@@ -1,12 +1,7 @@
 .a{
     height:75%;
     width:95%;
-<<<<<<< HEAD
     font-family:sans-serif;
-=======
-    
-    border-radius:10px;
->>>>>>> 5dbc50c2be222b8c310f6d420199c2fc4d06f999
     margin-top:3%;
     float:right;
 }
@@ -118,12 +113,8 @@
 .n{
     height:100%;
     width:22%;
-<<<<<<< HEAD
     justify-content: center;
     align-items: center;
-=======
-    box-shadow:-2px -2px 2px 2px lightgray,2px 2px 2px 2px lightgray;
->>>>>>> 5dbc50c2be222b8c310f6d420199c2fc4d06f999
     border-radius:10px;
     float:left;
     margin-right:2%;
