@@ -52,7 +52,7 @@
                     <div class="ca1">Become a Product Manager</div>
                     <div class="ca2">Envision and lead the product strategy of industry-defining products, and learn to successfully bring them to market. 
                         Influence the execution of product development as a Product Manager. </div>
-                    <div class="ca3"><button>ENROLL NOW</button></div>
+                    <div class="ca3"><button onclick="buy('product')">ENROLL NOW</button></div>
                     </div>
                     <div class="cb">
                         <div class="cb1">
@@ -189,4 +189,18 @@
                 </div>
                     </div>
             </div>
+            <script>
+                if(JSON.parse(localStorage.getItem('buy')===null)){
+                    localStorage.setItem('buy',JSON.stringify([]));
+                }
+                function buy(a){
+                    var b=JSON.parse(localStorage.getItem('buy'));
+                    if(!b.includes(a)){
+                        b.push(a);
+                    }
+                    console.log(b);
+                localStorage.setItem('buy',JSON.stringify(b));
+                
+                }
+            </script>
     

@@ -52,7 +52,7 @@
                     <div class="ca1">Become a Data Engineer</div>
                     <div class="ca2">Data Engineering is the foundation for the new world of Big Data. 
                         Enroll now to build production-ready data infrastructure, an essential skill for advancing your data career. </div>
-                    <div class="ca3"><button>ENROLL NOW</button></div>
+                    <div class="ca3"><button onclick="buy('dataengineer')">ENROLL NOW</button></div>
                     </div>
                     <div class="cb">
                         <div class="cb1">
@@ -189,6 +189,19 @@
                 </div>
                     </div>
             </div>
-
+<script>
+    if(JSON.parse(localStorage.getItem('buy')===null)){
+                    localStorage.setItem('buy',JSON.stringify([]));
+                }
+                function buy(a){
+                    var b=JSON.parse(localStorage.getItem('buy'));
+                    if(!b.includes(a)){
+                        b.push(a);
+                    }
+                    console.log(b);
+                localStorage.setItem('buy',JSON.stringify(b));
+                
+                }
+</script>
             
     
