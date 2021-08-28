@@ -551,11 +551,10 @@ height:90%;
  #backimg {
     width:100%;
     background-image: url("https://www.udacity.com/assets/iridium/images/nanodegree-overview/shared/degree-pricing-card/canonical-degree-pricing-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:900px;
+    
+    height:1000px;
     margin-top: 10px;
-    /* background-attachment: fixed; */
+     background-attachment: fixed; 
 }
 .box-cont {
     width:60%;
@@ -565,7 +564,6 @@ height:90%;
     display: grid;
     grid-template-columns: 45% 45%;
     grid-gap: 2%;
-    justify-content:space-around;
 }
 .boxcont1{
     margin: auto;
@@ -581,7 +579,7 @@ height:90%;
     line-height: 24px;
     box-shadow: 5px 5px 25px 0 rgb(46 61 73 / 20%);
 }
-.full-stack {
+.full-stackapp {
     font-size: 1.75rem;
     margin-bottom: 30px;
     margin-top: 30px;
@@ -804,115 +802,11 @@ height:90%;
 }
 
 
-/*pramotion adding*/
-
-#cls1 {
-    font-size: 25px;
-    text-align: center;
-    line-height: 100%;
-}
-
-.cls2 {
-    font-family: sans-serif;
-    text-align: center;
-    line-height: 40%;
-    font-size: 17px;
-}
-
-#id2 {
-    margin: auto;
-    text-align: center;
-}
-
-#img1 {
-    max-width: 15%;
-    margin: 2%;
-}
-
-#popup {
-    border-radius: 1px solid red;
-    /* text-align: center; */
-    width: 75%;
-    height: 250px;
-    margin: auto;
-    padding: 50px;
-
-    margin-top: 7%;
-    font-family: sans-serif;
-    color: white;
-    padding: 6rem 0;
-    margin-bottom: 2.5rem;
-    background-color: #2e3d49;
-
-}
-
-#btn1 {
-    margin-left: 40%;
-    ;
-    text-align: center;
-    height: 50px;
-
-    border-radius: 3px;
-    width: 13.75rem;
-    color: #fff;
-    background-color: #017a9b;
-    border: .125rem solid transparent;
-}
-
-
-/*dont waste your time*/
-#asd{
-    text-align: center;
-    margin: auto;
-}
-
-#ax {
-  margin: auto;
-  align-items: center;
-    
-    margin-top: 3%;
-
-    height: 40%;
-    width: 100%;
-}
-
-.bx {
-
-    height: 100%;
-    width: 20%;
-    box-shadow: -2px -2px 2px 2px lightgray, 2px 2px 2px 2px lightgray;
-    border-radius: 10px;
-    padding: 3px;
-    margin-left: 4%;
-    float: left;
-    background-color: rgb(242, 243, 235)
-}
-
-.bx1 {
-    border: 1.5px;
-    border-radius: 5px;
-    margin-top: 0px;
-    height: 2%;
-    width: 100%;
-    font-size: 3px;
-   
-}
-.img2{
-    max-width: 12.5%;
-}
-.cls9{
-    font-size: 17px;
-    font-family:sans-serif;
-}
-.cls10{
-    font-size: 19px;
-    font-family:sans-serif;
-}
 
 
 
 
-#full-content {
+#full-content101 {
     background-color: rgb(255, 253, 253);
     align-items:center;justify-content: center;
     margin: auto;
@@ -925,7 +819,7 @@ height:90%;
     flex-direction: row;
     justify-content: space-between;
 }
-.cont-don .what {
+.cont-don .what101 {
     font-size: 38px;
     width: 70%;
     font-family: sans-serif;
@@ -948,7 +842,7 @@ height:90%;
     color:#017a9b;
 }
 
-#box-shadow {
+#box-shadow101 {
     width:80%;
     box-shadow: 5px 5px 25px 0 rgb(46 61 73 / 20%);
     background-color: white;
@@ -966,7 +860,7 @@ height:90%;
     border-radius: 10px;
     margin-bottom: 2%;
 }
-.total-cont {
+.total-cont101 {
     width: 90%;
     margin: auto;
     margin-bottom: 6%;
@@ -974,19 +868,19 @@ height:90%;
     grid-template-columns: 62% 35%;
     justify-content: space-between;
 }
-.opt-cont {
+.opt-cont101 {
     height: 90%;
 }
-.box-opt-cont {
+.box-opt-cont101 {
     height: 90%;
 }
-.top-get {
+.top-get101 {
     width: 58%;
 }
-.top-img {
+.top-img101 {
     width:40%;
 }
-.top-img img {
+.top-img101 img {
     width: 100%;
     height: 100%;
     border-bottom-right-radius: 10px;
@@ -1040,7 +934,7 @@ height:90%;
 padding-bottom: 1.75rem;
 font-family: sans-serif;
 font-weight: 700;
-font-size: 700;
+font-size: 14;
 color: rgb(54, 50, 50);
 position: relative;
 }
