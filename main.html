@@ -3,13 +3,22 @@
 <head>
     
     <title>PURCHASED COURSES</title>
+   
 </head>
 
 <body>
+   
     <div class="udacity"><a href="classroom.html"><img  src="https://payment.udacity.com/static/media/logo.ccbc74e4.svg"/></a></div>
-    
+    <h1 id="remove">MY CLASSROOM IS EMPTY</h1>
 </body>
 <style>
+    #remove{
+        margin:auto;
+        text-align:center;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+    }
     .udacity{
         height:8%;
         width:12%;
@@ -185,6 +194,10 @@
     
     function abc(){
         var a=JSON.parse(localStorage.getItem('buy1'));
+        if(a.length!=0){
+            var t=document.getElementById('remove');
+            t.parentNode.removeChild(t);
+        }
         var x=[];//storing array elements in simpler form
         for(j=0;j<a.length;j++){
             if(a[j]=="Full Stack Web Developer Nanodegree Program"){
