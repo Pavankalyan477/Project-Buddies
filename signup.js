@@ -39,7 +39,7 @@ function data(e) {
     localStorage.setItem("userData", input_json);
       setTimeout(
       function () {
-       window.location.href = "signup.html"
+       href = "#ready"
      }, 3000);
 
 
