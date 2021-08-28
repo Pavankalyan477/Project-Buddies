@@ -1032,3 +1032,50 @@ border-top-left-radius: 10px;;
     font-size: 19px;
     font-family:sans-serif;
 }
+
+
+
+#cls1 {
+    font-size: 25px;
+    text-align: center;
+    line-height: 100%;
+}
+.cls2 {
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 40%;
+    font-size: 17px;
+}
+#id2 {
+    margin: auto;
+    text-align: center;
+}
+#img1 {
+    max-width: 15%;
+    margin: 2%;
+}
+#popup {
+    border-radius: 1px solid red;
+    /* text-align: center; */
+    width: 75%;
+    height: 250px;
+    margin: auto;
+    padding: 50px;
+    margin-top: 7%;
+    font-family: sans-serif;
+    color: white;
+    padding: 6rem 0;
+    margin-bottom: 2.5rem;
+    background-color: #2E3D49;
+}
+#btn1 {
+    margin-left: 40%;
+    ;
+    text-align: center;
+    height: 50px;
+    border-radius: 3px;
+    width: 13.75rem;
+    color: #fff;
+    background-color: #017A9B;
+    border: .125rem solid transparent;
+}
