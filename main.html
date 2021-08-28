@@ -20,35 +20,273 @@
         width:100%;
     }
     .b1{
-        height:20%;
-        width:50%;
-        border:solid 1px black;
-        margin:auto;
-        margin-top:5%;
+        height:70%;
+        width:60%;
         border-radius:10px;
-        box-shadow:-2px -2px 2px 2px lightgray,2px 2px 2px 2px lightgray;
+        border:1px solid black;
+        margin-top:5%;
+        margin-left:20%;
+
     }
     .b2{
+        height:8%;
+        width:30%;
+        border:solid black 1px;
+        margin-left:2%;
+        font-family:sans-serif;
+        margin-top:2%;
+        font-size:20px;
+    }
+    .c1{
+        height:25%;
+        margin-top:1%;
+        width:70%;
+        border:solid 1px black;
+        margin-left:15%;
+        
+    }
+    .c2{
         height:100%;
         width:30%;
+        border:solid 1px black;
+        float:left;
+    }
+    .c21{
+        height:100%;
+        width:100%;
+        
+    }
+    .c3{
+        height:18%;
+        width:25%;
+        border:solid 1px black;
+        margin-left:1%;
+        margin-top:2%;
+        float:left;
+    }
+    .c4{
+        height:50%;
+        width:50%;
+        margin-top:1%;
+        margin-left:1%;
         float:left;
         border:solid 1px black;
     }
+    .c5{
+        float:right;
+        margin-right:1%;
+        height:22%;
+        width:15%;
+        margin-top:6%;
+        color:white;
+        background-color:teal;
+
+    }
 </style>
 <script>
+    var web=[
+        {
+            name:"HTML",
+            des:"Hypertext markup language",
+            link:"",
+            image:"",
+
+        },
+        {
+            name:"CSS",
+            des:"Cascaded styling sheet",
+            link:"",
+            image:"",
+        },
+        {
+            name:"JS",
+            des:"Javascript",
+            link:"",
+            image:"",
+        }
+    ]
+    
     function abc(){
         var a=JSON.parse(localStorage.getItem('buy1'));
-        for(i=0;i<a.length;i++){
-           var b1=document.createElement('div');
-           var b2=document.createElement('div');
-           var b3=document.createElement('div');
-           var b4=document.createElement('div');
-           b2.setAttribute('class','b2');
-           b1.setAttribute('class','b1');
-           b1.append(b2);
-           document.body.append(b1);
+        var x=[];//storing array elements in simpler form
+        for(j=0;j<a.length;j++){
+            if(a[j]=="Full Stack Web Developer Nanodegree Program"){
+                x[j]="web";
+            }
+            else if(a[j]=="AI for Healthcare Nanodegree Program"){
+                x[j]="health";
+            }
+            else if(a[j]=="Product Management Nanodegree Program"){
+                x[j]="product";
+            }
+            else if(a[j]=="Data Engineer Nanodegree Program"){
+                x[j]="data";
+            }
+            
         }
-    }
+    
+        for(i=0;i<x.length;i++){
+            if(x[i]=="web"){
+           var b1=document.createElement('div');//outer border
+           b1.setAttribute('class','b1');
+
+           var b2=document.createElement('div');//main heading
+           b2.setAttribute('class','b2');
+           b2.innerText="Full Stack Web developer";
+           b1.append(b2);
+           
+           for(k=0;k<web.length;k++){
+           var c1=document.createElement('div');//inside border
+           c1.setAttribute('class','c1');
+
+           var c2=document.createElement('div');//image border
+           c2.setAttribute('class','c2');
+
+           var c21=document.createElement('img');//image
+           c21.setAttribute('class','c21');
+           c2.append(c21);
+
+           var c3=document.createElement('div');//heading
+            c3.setAttribute('class','c3');
+           
+            var c4=document.createElement('div');//description
+            c4.setAttribute('class','c4');
+
+            var c5=document.createElement('button');
+            c5.setAttribute('class','c5');
+            c5.innerText='Watch';
+
+            c1.append(c2,c3,c4,c5);
+           b1.append(c1);
+            }
+           
+           
+           
+           document.body.append(b1);
+          
+           
+        }
+        else if(x[i]=="health"){
+           var b1=document.createElement('div');//outer border
+           b1.setAttribute('class','b1');
+           
+
+           var b2=document.createElement('div');//main heading
+           b2.setAttribute('class','b2');
+           b2.innerText="AI for health care";
+           b1.append(b2);
+
+           for(k=0;k<web.length;k++){
+           var c1=document.createElement('div');//inside border
+           c1.setAttribute('class','c1');
+
+           var c2=document.createElement('div');//image border
+           c2.setAttribute('class','c2');
+
+           var c21=document.createElement('img');//image
+           c21.setAttribute('class','c21');
+           c2.append(c21);
+
+           var c3=document.createElement('div');//heading
+            c3.setAttribute('class','c3');
+           
+            var c4=document.createElement('div');//description
+            c4.setAttribute('class','c4');
+
+            var c5=document.createElement('button');
+            c5.setAttribute('class','c5');
+            c5.innerText='Watch';
+
+            c1.append(c2,c3,c4,c5);
+           b1.append(c1);
+            }
+          
+           
+           
+           
+           
+           document.body.append(b1);
+           
+        }
+        else if(x[i]=="product"){
+           var b1=document.createElement('div');//outer border
+           b1.setAttribute('class','b1');
+
+           var b2=document.createElement('div');//main heading
+           b2.setAttribute('class','b2');
+           b2.innerText="Product management";
+           b1.append(b2);
+
+           for(k=0;k<web.length;k++){
+           var c1=document.createElement('div');//inside border
+           c1.setAttribute('class','c1');
+
+           var c2=document.createElement('div');//image border
+           c2.setAttribute('class','c2');
+
+           var c21=document.createElement('img');//image
+           c21.setAttribute('class','c21');
+           c2.append(c21);
+
+           var c3=document.createElement('div');//heading
+            c3.setAttribute('class','c3');
+           
+            var c4=document.createElement('div');//description
+            c4.setAttribute('class','c4');
+
+            var c5=document.createElement('button');
+            c5.setAttribute('class','c5');
+            c5.innerText='Watch';
+
+            c1.append(c2,c3,c4,c5);
+           b1.append(c1);
+            }
+           
+           
+           document.body.append(b1);
+           
+        }
+        else if(x[i]=="data"){
+           var b1=document.createElement('div');//outer border
+           b1.setAttribute('class','b1');
+
+           var b2=document.createElement('div');//main heading
+           b2.setAttribute('class','b2');
+           b2.innerText="Data Engineer";
+           b1.append(b2);
+
+           for(k=0;k<web.length;k++){
+           var c1=document.createElement('div');//inside border
+           c1.setAttribute('class','c1');
+
+           var c2=document.createElement('div');//image border
+           c2.setAttribute('class','c2');
+
+           var c21=document.createElement('img');//image
+           c21.setAttribute('class','c21');
+           c2.append(c21);
+
+           var c3=document.createElement('div');//heading
+            c3.setAttribute('class','c3');
+           
+            var c4=document.createElement('div');//description
+            c4.setAttribute('class','c4');
+
+            var c5=document.createElement('button');
+            c5.setAttribute('class','c5');
+            c5.innerText='Watch';
+
+            c1.append(c2,c3,c4,c5);
+           b1.append(c1);
+            }
+           
+           
+           
+           document.body.append(b1);
+           
+           
+        }
+    }}
     abc();
 </script>
 </html>
