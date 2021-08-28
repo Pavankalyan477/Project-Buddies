@@ -858,3 +858,53 @@ height:90%;
     background-color: #017a9b;
     border: .125rem solid transparent;
 }
+
+
+/*dont waste your time*/
+#asd{
+    text-align: center;
+    margin: auto;
+}
+
+#ax {
+  margin: auto;
+  align-items: center;
+    
+    margin-top: 3%;
+
+    height: 40%;
+    width: 100%;
+}
+
+.bx {
+
+    height: 100%;
+    width: 20%;
+    box-shadow: -2px -2px 2px 2px lightgray, 2px 2px 2px 2px lightgray;
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 4%;
+    float: left;
+    background-color: rgb(242, 243, 235)
+}
+
+.bx1 {
+    border: 1.5px;
+    border-radius: 5px;
+    margin-top: 0px;
+    height: 2%;
+    width: 100%;
+    font-size: 3px;
+   
+}
+.img2{
+    max-width: 12.5%;
+}
+.cls9{
+    font-size: 17px;
+    font-family:sans-serif;
+}
+.cls10{
+    font-size: 19px;
+    font-family:sans-serif;
+}
