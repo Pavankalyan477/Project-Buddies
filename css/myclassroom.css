@@ -151,4 +151,7 @@ overflow: hidden;
  color: rgb(100, 95, 95);
  font-size: 12px;
 }
+.am {
+    text-decoration: none; color: white;
+}
 
