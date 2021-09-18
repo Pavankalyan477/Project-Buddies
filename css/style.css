@@ -175,7 +175,7 @@
 }
 
 .p{
-    height:8%;
+    height:12%;
     width:100%;
     margin-left:5%;
     margin: 0 0 32px;
@@ -206,7 +206,7 @@
     float:right;
 }
 .p20{
-    height:60%;
+    height:50%;
     width:60%;
     margin:auto;
     float:left;
@@ -217,7 +217,7 @@
     text-decoration: none;
     border: none;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .p3{
     height:100%;
@@ -246,11 +246,12 @@ ul{
 ul li{
     background-color:white;
     border:1px solid white;
-    width:150px;
+    width:18%;
     height:90%;
     line-height:30px;
+    text-align: center;
     float:left;
-    font-size:15px;
+    font-size:16px;
     font-family:sans-serif;
     box-shadow: whitesmoke;
     list-style:none;
@@ -265,11 +266,12 @@ ul li a{
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding-top: 15px;
+    padding-top: 30px;
 }
 ul li a:hover{
     background-color:lightcyan;
-    color: gray;
+    color: rgb(135, 167, 194);
+    text-align: center;
 }
 ul li ul li {
     display:none;
